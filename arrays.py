@@ -52,3 +52,8 @@ print(arr[0:4])
 a, b, c = [1, 2, 3]
 print(a, b, c)
 
+# be careful tho, the number of assignment
+# on the left hand side needs to match the 
+# right hand side
+a, b = [1, 2, 3] # will throw an error
+
