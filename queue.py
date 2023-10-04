@@ -15,3 +15,7 @@ print(queue)
 # to the end of the queue as well
 queue.appendleft(1)
 print(queue)
+
+# pop item from right
+queue.pop()
+print(queue)
