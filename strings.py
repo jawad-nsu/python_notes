@@ -11,3 +11,14 @@ s[0] = "A" # this will thrown an error
 # string modification is considered n time operation 
 s += "def"
 print(s)
+
+# valid numeric strings can be converted
+print(int("123") + int("123"))
+
+# And numbers can be converted to strings
+print(str(123) + str(123))
+
+# In rare cases you may need the ASCII value
+# of a char
+print(ord('a'))
+print(ord('b'))
